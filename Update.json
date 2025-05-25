@@ -1,5 +1,4 @@
 {
-  "version": "1.3",
-  "link": "https://tudominio.com/tuapp.apk",
-  "mensaje": "Nueva versión disponible. ¿Deseas actualizar?"
+  "latestVersion": "1.1",
+  "apkUrl": "https://github.com/CarlosFFYRMODz/CarlosFFYRMODz/releases/download/v1.1/app-release.apk"
 }
