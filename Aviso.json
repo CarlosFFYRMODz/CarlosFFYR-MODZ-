@@ -1,0 +1,7 @@
+{
+  "aviso": true,
+  "titulo": "¡Actualización disponible!",
+  "mensaje": "Hay una nueva versión de la app. Por favor, actualiza para continuar.",
+  "accion": "Actualizar ahora",
+  "url": "https://tu-enlace-de-descarga.com/app.apk"
+}
