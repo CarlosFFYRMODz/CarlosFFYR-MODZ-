@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Descargar Mi App</title>
+  <style>
+    * {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; /* ❌ Evita selección de texto */
+    }
+
+    html, body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #1f1f1f, #121212);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      -webkit-tap-highlight-color: transparent; /* ❌ Elimina efecto azul en móviles */
+    }
+
+    .container {
+      background: #2c2c2c;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(255, 0, 150, 0.3);
+      max-width: 400px;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 20px;
+      pointer-events: none; /* ❌ Impide interacción con imagen */
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    .btn-descargar {
+      background: linear-gradient(90deg, #ff006a, #ff5e00);
+      padding: 15px 25px;
+      border: none;
+      border-radius: 12px;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: transform 0.3s ease;
+      outline: none;
+      box-shadow: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .btn-descargar:focus,
+    .btn-descargar:active {
+      outline: none;
+      box-shadow: none;
+    }
+
+    .btn-descargar:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+  <script>
+    // ❌ Bloquea clic derecho (ver código fuente, descargar imagen, copiar)
+    document.addEventListener('contextmenu', e => e.preventDefault());
+  </script>
+</head>
+<body>
+
+  <div class="container">
+    <img src="https://www.appcreator24.com/srv/imgs/gen/3480967_ico.png?v=25" alt="Logo App" class="logo" />
+    <h1>CarlosFFYR MODZ</h1>
+    <p>Descarga gratuita de la aplicación oficial en formato APK.</p>
+
+    <a class="btn-descargar" href="https://www.mediafire.com/file/tu_apk.apk/file" target="_blank">
+      Descargar APK
+    </a>
+
+    <footer>
+      Creado por [PlayMetflix.inc]
+    </footer>
+  </div>
+
+</body>
+</html>
